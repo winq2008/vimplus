@@ -1,4 +1,3 @@
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 用户自定义插件列表（该文件只放插件，若要增加其他配置，请放入~/.vimrc.custom.config）
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -16,3 +15,22 @@
 
 " 卸载/禁用~/.vimrc里的默认插件
 " UnPlug 'chxuan/prepare-code'
+UnPlug  'chxuan/vim-edit'
+UnPlug  'jiangmiao/auto-pairs'
+" 禁用'auto-pairs'插件的自动补括号，启用新的'delimitMate'插件
+"Plug 'Raimondi/delimitMate'
+
+" 现代化的构建任务系统
+Plug 'skywind3000/asynctasks.vim'
+" 为vim加入菜单插件
+Plug 'skywind3000/vim-quickui'
+Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/asyncrun.extra'
+Plug 'skywind3000/vim-terminal-help'
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'  }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mattn/emmet-vim'
+"在左侧显示git使用符号列来指示由版本控制系统管理的文件中的添加、修改和删除的行
+Plug 'mhinz/vim-signify'
+
+Plug 'ap/vim-css-color'
